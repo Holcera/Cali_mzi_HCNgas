@@ -4,19 +4,13 @@ Created on Sun May 22 14:33:20 2022
 
 @author: Heeeg
 """
-from cProfile import label
-import itertools
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import hvplot.pandas
-import holoviews as hv
-import pyLPD.MLtools as pmlt
-from pyparsing import alphas
-import scipy
-from bokeh.plotting import show
-from scipy import signal, optimize, signal, interpolate
+from pyLPD import MLtools as pmlt  # this import may cause error
+from scipy import optimize
 from scipy import constants as C
+from matplotlib import rcParams
 # pd.options.plotting.backend = 'holoviews'
 
 #%%
